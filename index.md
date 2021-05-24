@@ -1,12 +1,14 @@
-## Welcome to GitHub Pages
+## napkins
 
 You can use the [editor on GitHub](https://github.com/notcat/portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Source VTF format modifier
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+When you are put on board with a new team, you get the pleasure of fixing what the people before you did, and doing it right. I ran into an interesting sfenario where I had hundreds of VTF materials for models on a Source Engine game, but these files were using a pseudo-lossless format, making the filesize 3x the size it should be. 
+
+
 
 ```markdown
 Syntax highlighted code block
