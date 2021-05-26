@@ -1,6 +1,6 @@
-## portfolio.txt
+portfolio.txt
 
-### Source VTF format modifier
+## Source VTF format modifier
 
 When you are put on board with a new team, you get the pleasure of fixing what the people before you did. I ran into an interesting scenario where I had hundreds of VTF materials for models on a Source Engine game, but these files were using the DXT3 compression format over the DXT5 compression format, making the filesize 3x the size it should be. The images did not store any transparency so the higher bit format was unnecessary.
 
