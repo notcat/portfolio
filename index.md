@@ -32,12 +32,8 @@ With my setup, I have one node server, a Debian Server box, and two Raspberry Pi
 
 I designed a cad model of the raspberry pi, and then a case around it to protect from the elements and a mounting bracket for my house. This case is not waterproof or weatherproof for that matter but will protect it from most rain and bird shit that falls from the sky.
 
-```
-image of camera outside house
-```
-```
-image of camera enclosure
-```
+![alt text](IMG_0010.JPG "Image of outside of house")
+![alt text](IMG_0011.JPG "Closeup image of outside of house")
 
 MotionEye is a great tool and is by far the best survellience system suite that I have found as all the others are either ancient and old or not compatible with linux.
 
