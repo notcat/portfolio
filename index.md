@@ -51,4 +51,4 @@ I set up a service on the Debian Server box to automatically send me push notifi
 ![alt text](pushnotification.png "Image of push notification")
 
 ## cool robot with flamethrower 😎
-![alt text](chat-media-video-chatmedia-68D3F466-0CEC-4AFC-A659-60B5A867657F.mov "flamethrower robot video")
+{% include video.html %}
