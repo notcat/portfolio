@@ -15,7 +15,7 @@ Having good DevOps makes developing for communitys and companies many times easi
 When a commit is stable enough for release, merging it to the master branch will run the CI/CD Github Actions and will be created as a release, the live production server will pull the release automatically and deploy it with a live reload to have no downtime on the server with players currently playing on it.
 
 ![alt text](githubactions.png "Image of a Github Actions")
-![alt text](githubrelease.png "Image of a Github Release")
+![alt text](sBzdDqq.png "Image of a Github Release")
 
 ## Raspberry Pi Nightvision Camera
 
