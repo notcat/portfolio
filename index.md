@@ -17,6 +17,32 @@ When a commit is stable enough for release, merging it to the master branch will
 ![alt text](githubactions.png "Image of a Github Actions")
 ![alt text](sBzdDqq.png "Image of a Github Release")
 
+
+## Unity Game Development
+
+With the collaboration with friends, I created a sumo wrestling car game, combined with fun powerups and realtime networked multiplayer. For the record, I never want to work with networking and unity again. I cried real tears after it worked properly for the first time. It is still of course, buggy, but its in a good state to where we could satisfyingly leave it and move onto a better project after learning that through the prototype it had no future due to the nature of cars. We could switch out the realistic cars for a more arcadey one but it would require a lot of work and rewriting code that we really didnt want to do after the massive hill we overcame just to have at this point. Having the ability to ragequit any project is very important to me.
+
+```
+video of car sumo game
+```
+
+I also dabbled with a simple infinite scroller type game that would ideally be used on a phone. The controls are very simple so creating a mobile game was as simple as designating the left side of the screen to `left` and the right half of the screen to be `right`. The game consists of a simple concept where you dodge an endless stream of blocks and collect coins that are saved when you leave the game and come back to it. I created an entire storefront for the game but eventually lost interest as it would not be published anywhere other than my own learning. 
+
+```
+video of sidegame
+```
+
+## GoLang P2P Encrypted RAT
+
+In search of my quest to fuck with the computers school infrastructure, I started to research viruses and ways to break group policy and antiviruses. This lead me down a path of finding a new and loved language, GoLang, and I used it for all future projects due to ease and powerful features that I could not find in other languages or they lacked a good implementation of it. Being able to compile down to a binary is an essential feature for some projects as having to install a 500mb runtime just to start the program is more annoying than you would think.
+
+Working on the P2P encryption was quite a task as sending packets is not so simple and especially when you want to introduce encryption into it. Originally I sent plain text through tcp sockets but eventually switched to https websockets as they are significantly easier to disguise and do not flag firewalls or antiviruses. The port 80 is almost always open on all systems and networks. I used gopenpgp from ProtonMail to encrypt my messages and it abstracted a lot of the hard and complicated parts about encryption.
+
+Here you can see me executing `msg fuckingretard hi` on my server, encrypting it then sending it to my client to finally decrypt it and run the command. Below you can see wireshark picking up the packets and seeing the openpgp message rather than its unencrypted counterpart.
+
+![alt text](R69UZej.png "Image of a terminal")
+![alt text](RWaPbWb.png "Image of a WireShark Terminal")
+
 ## Raspberry Pi Nightvision Camera
 
 I want to preface this by saying I'm not a [creep,](https://www.youtube.com/watch?v=XFkzRNyygfk) but I have always been fascinated by watching the world happen, in the past. I love watching the wildlife on my yard, the animals that come and raid my garden at night, and the bears scavaging for berries from my bushes. I decided to kill two birds with one stone by setting up a survelience system on my house with a few Raspberry Pi's with nightvision cameras. 
