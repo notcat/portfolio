@@ -28,7 +28,7 @@ video of car sumo game
 
 I also dabbled with a simple infinite scroller type game that would ideally be used on a phone. The controls are very simple so creating a mobile game was as simple as designating the left side of the screen to `left` and the right half of the screen to be `right`. The game consists of a simple concept where you dodge an endless stream of blocks and collect coins that are saved when you leave the game and come back to it. I created an entire storefront for the game but eventually lost interest as it would not be published anywhere other than my own learning. 
 
-You can play the game here: https://play.unity.com/mg/other/testmobilegame-1
+You can play the game [here](https://play.unity.com/mg/other/testmobilegame-1)
 
 {% include video2.html %}
 
