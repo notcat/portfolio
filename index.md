@@ -1,5 +1,28 @@
 portfolio.txt
 
+## Unity Game Development
+
+With the collaboration with friends, I created a sumo wrestling car game, combined with fun powerups and realtime networked multiplayer. For the record, I never want to work with networking and unity again. I cried real tears after it worked properly for the first time. It is still of course, buggy, but its in a good state to where we could satisfyingly leave it and move onto a better project after learning that through the prototype it had no future due to the nature of cars. We could switch out the realistic cars for a more arcadey one but it would require a lot of work and rewriting code that we really didnt want to do after the massive hill we overcame just to have at this point. Having the ability to ragequit any project is very important to me.
+
+{% include video5.html %}
+
+I also dabbled with a simple infinite scroller type game that would ideally be used on a phone. The controls are very simple so creating a mobile game was as simple as designating the left side of the screen to `left` and the right half of the screen to be `right`. The game consists of a simple concept where you dodge an endless stream of blocks and collect coins that are saved when you leave the game and come back to it. I created an entire storefront for the game but eventually lost interest as it would not be published anywhere other than my own learning. 
+
+You can play the game [here](https://play.unity.com/mg/other/testmobilegame-1)
+
+{% include video2.html %}
+
+## GoLang P2P Encrypted RAT
+
+In search of my quest to fuck with the computers school infrastructure, I started to research viruses and ways to break group policy and antiviruses. This lead me down a path of finding a new and loved language, GoLang, and I used it for all future projects due to ease and powerful features that I could not find in other languages or they lacked a good implementation of it. Being able to compile down to a binary is an essential feature for some projects as having to install a 500mb runtime just to start the program is more annoying than you would think.
+
+Working on the P2P encryption was quite a task as sending packets is not so simple and especially when you want to introduce encryption into it. Originally I sent plain text through tcp sockets but eventually switched to https websockets as they are significantly easier to disguise and do not flag firewalls or antiviruses. The port 80 is almost always open on all systems and networks. I used gopenpgp from ProtonMail to encrypt my messages and it abstracted a lot of the hard and complicated parts about encryption.
+
+Here you can see me executing `msg fuckingretard hi` on my server, encrypting it then sending it to my client to finally decrypt it and run the command. Below you can see wireshark picking up the packets and seeing the openpgp message rather than its unencrypted counterpart.
+
+![alt text](R69UZej.png "Image of a terminal")
+![alt text](RWaPbWb.png "Image of a WireShark Terminal")
+
 ## Source VTF format modifier
 
 When you are put on board with a new team, you get the pleasure of fixing what the people before you did. I ran into an interesting scenario where I had hundreds of VTF materials for models on a Source Engine game, but these files were using the DXT3 compression format over the DXT5 compression format, making the filesize 3x the size it should be. The images did not store any transparency so the higher bit format was unnecessary.
@@ -29,28 +52,6 @@ My community leader wanted us to have the CS:GO playermodels for our casual 16v1
 
 {% include video4.html %}
 
-## Unity Game Development
-
-With the collaboration with friends, I created a sumo wrestling car game, combined with fun powerups and realtime networked multiplayer. For the record, I never want to work with networking and unity again. I cried real tears after it worked properly for the first time. It is still of course, buggy, but its in a good state to where we could satisfyingly leave it and move onto a better project after learning that through the prototype it had no future due to the nature of cars. We could switch out the realistic cars for a more arcadey one but it would require a lot of work and rewriting code that we really didnt want to do after the massive hill we overcame just to have at this point. Having the ability to ragequit any project is very important to me.
-
-{% include video5.html %}
-
-I also dabbled with a simple infinite scroller type game that would ideally be used on a phone. The controls are very simple so creating a mobile game was as simple as designating the left side of the screen to `left` and the right half of the screen to be `right`. The game consists of a simple concept where you dodge an endless stream of blocks and collect coins that are saved when you leave the game and come back to it. I created an entire storefront for the game but eventually lost interest as it would not be published anywhere other than my own learning. 
-
-You can play the game [here](https://play.unity.com/mg/other/testmobilegame-1)
-
-{% include video2.html %}
-
-## GoLang P2P Encrypted RAT
-
-In search of my quest to fuck with the computers school infrastructure, I started to research viruses and ways to break group policy and antiviruses. This lead me down a path of finding a new and loved language, GoLang, and I used it for all future projects due to ease and powerful features that I could not find in other languages or they lacked a good implementation of it. Being able to compile down to a binary is an essential feature for some projects as having to install a 500mb runtime just to start the program is more annoying than you would think.
-
-Working on the P2P encryption was quite a task as sending packets is not so simple and especially when you want to introduce encryption into it. Originally I sent plain text through tcp sockets but eventually switched to https websockets as they are significantly easier to disguise and do not flag firewalls or antiviruses. The port 80 is almost always open on all systems and networks. I used gopenpgp from ProtonMail to encrypt my messages and it abstracted a lot of the hard and complicated parts about encryption.
-
-Here you can see me executing `msg fuckingretard hi` on my server, encrypting it then sending it to my client to finally decrypt it and run the command. Below you can see wireshark picking up the packets and seeing the openpgp message rather than its unencrypted counterpart.
-
-![alt text](R69UZej.png "Image of a terminal")
-![alt text](RWaPbWb.png "Image of a WireShark Terminal")
 
 ## Raspberry Pi Nightvision Camera
 
