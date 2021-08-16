@@ -5,7 +5,7 @@ portfolio.txt
 My newest project taking up all my time is a multiplayer remake of the Wii Play: Tanks! minigame from a decade ago. I spent hours playing this game doing the co-op mode and wished it was multiplayer forever. The game features networking and a proxy server to allow peer-to-peer hosting and a matchmaking system is currently in the works.
 
 ![wiitanks game](https://i.imgur.com/JV2Nw46.gif)
-![wiitanks game](https://i.imgur.com/TTRwoeW.gifv)
+![wiitanks game](https://i.imgur.com/TTRwoeW.gif)
 
 With the collaboration with friends, I created a sumo wrestling car game, combined with fun powerups and realtime networked multiplayer. For the record, I never want to work with networking and unity again. I cried real tears after it worked properly for the first time. It is still of course, buggy, but its in a good state to where we could satisfyingly leave it and move onto a better project after learning that through the prototype it had no future due to the nature of cars. We could switch out the realistic cars for a more arcadey one but it would require a lot of work and rewriting code that we really didnt want to do after the massive hill we overcame just to have at this point. Having the ability to ragequit any project is very important to me.
 
