@@ -40,12 +40,6 @@ When a commit is stable enough for release, merging it to the master branch will
 ![alt text](githubactions.png "Image of a Github Actions")
 ![alt text](sBzdDqq.png "Image of a Github Release")
 
-## Sourcepawn "Jihad" for Counter Strike: Source Jailbreak
-
-When searching around for a good jihad plugin for our jailbreak server, there was existing ones but they lacked in quality or the features we wanted. I created a random chance selecter for the Prisoners to "choose" to "make" a bomb. This differed greatly from the existing jihads plugins where it would either wait till you have $16000 cash (and all the T's had this at the same time so they would have 8 Rounds with a Jihad in a row, annoying.) or they would not randomly select a person to get a jihad, and you would have to spam a console command at round start to get the jihad before someone else. The way it works now is that there is a console variable for a random chance of having a jihad in the round, default being 1 in 3 chance, and then once it is a "jihad round", you would be randomly selected the option to "make" a bomb.
-
-{% include video4.html %}
-
 ## Sourcepawn CS:GO Playermodels for Counter Strike: Source
 
 My community leader wanted us to have the CS:GO playermodels for our casual 16v16 server. The existing solutions for this involved a clunky menu where you had to open using an ugly command, which lead to people going "how do i get that model" or "whats the command to get custom models" and felt like a very hacky way to do it. I ended up doing a solution where the playermodel you spawn with is directly correlated to the playermodel you select on the team select screen. This way the model selection is baked in and FORCED before you even join a team and spawn.
