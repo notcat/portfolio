@@ -2,6 +2,11 @@ portfolio.txt
 
 ## Unity Game Development
 
+My newest project taking up all my time is a multiplayer remake of the Wii Play: Tanks! minigame from a decade ago. I spent hours playing this game doing the co-op mode and wished it was multiplayer forever. The game features networking and a proxy server to allow peer-to-peer hosting and a matchmaking system is currently in the works.
+
+![wiitanks game](https://i.imgur.com/JV2Nw46.gif)
+![wiitanks game](https://imgur.com/TTRwoeW)
+
 With the collaboration with friends, I created a sumo wrestling car game, combined with fun powerups and realtime networked multiplayer. For the record, I never want to work with networking and unity again. I cried real tears after it worked properly for the first time. It is still of course, buggy, but its in a good state to where we could satisfyingly leave it and move onto a better project after learning that through the prototype it had no future due to the nature of cars. We could switch out the realistic cars for a more arcadey one but it would require a lot of work and rewriting code that we really didnt want to do after the massive hill we overcame just to have at this point. Having the ability to ragequit any project is very important to me.
 
 {% include video5.html %}
@@ -45,6 +50,7 @@ When a commit is stable enough for release, merging it to the master branch will
 My community leader wanted us to have the CS:GO playermodels for our casual 16v16 server. The existing solutions for this involved a clunky menu where you had to open using an ugly command, which lead to people going "how do i get that model" or "whats the command to get custom models" and felt like a very hacky way to do it. I ended up doing a solution where the playermodel you spawn with is directly correlated to the playermodel you select on the team select screen. This way the model selection is baked in and FORCED before you even join a team and spawn.
 
 {% include video3.html %}
+
 
 
 ## Raspberry Pi Nightvision Camera
