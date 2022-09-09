@@ -1,5 +1,3 @@
-portfolio.txt
-
 ## Unity Game Development
 
 My newest project taking up all my time is a multiplayer remake of the Wii Play: Tanks! minigame from a decade ago using **C#** and Unity!. I spent hours playing this game doing the co-op mode and wished it was multiplayer forever. The game features networking and a proxy server to allow peer-to-peer hosting and a matchmaking system is currently in the works.
