@@ -1,4 +1,4 @@
-Posted 2020, edited 2020. Old, but unrefined but raw in the best way possible.
+Posted 2020, edited 2020. Old, unrefined but raw in the best way possible.
 
 ## Unity Game Development
 
